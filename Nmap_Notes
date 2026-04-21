@@ -1,0 +1,18 @@
+Nmap (Network Mapper)
+
+Nmap is a widely adopted, industry-standard tool for network discovery and security auditing, operating primarily at the network and transport layers.
+
+Primary Function:
+It is used for host discovery, port scanning, and service/version detection, providing clear visibility into which systems are active and what services they are running.
+
+Scanning Technique:
+Nmap leverages crafted packets—such as SYN packets in the well-known -sS (stealth scan)—to efficiently map networks while often evading basic firewall and filtering mechanisms.
+
+Key Capability:
+The Nmap Scripting Engine (NSE) significantly extends its functionality, enabling users to execute a large collection of scripts for tasks such as vulnerability assessment (--script vuln), brute-force testing, and in-depth service enumeration.
+
+Timing and Performance Control:
+Nmap offers granular timing options, ranging from -T0 (Paranoid) for slow, stealthy scans to -T4 (Aggressive) for faster execution, allowing users to balance speed and detectability.
+
+Output Formats:
+It supports multiple output formats, including plain text, XML, and grepable output, making it highly adaptable for integration with other tools, automation workflows, and reporting systems
